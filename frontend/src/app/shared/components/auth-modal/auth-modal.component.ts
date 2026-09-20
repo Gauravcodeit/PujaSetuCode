@@ -31,7 +31,7 @@ import { AuthService } from '../../../core/services/auth.service';
               🪔
             </div>
             <span class="text-[11px] font-bold text-orange-700 uppercase tracking-widest block font-serif">
-              ॥ ॐ नमः शिवाय ॥
+              ॥ ॐ नमः शिवाय ॥ 
             </span>
             <h3 class="text-lg font-bold text-gray-900 mt-1">
               {{ authService.authModalMode() === 'login' ? 'Sign In to PoojaSetu' : 'Create Devotee Account' }}
